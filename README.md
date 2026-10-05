@@ -33,3 +33,12 @@ But let's throw in a <b>tag</b>.
 * 🌭
 * 
 * 🥇 
+
+Had some problems with github.
+* "main branch" is called main not master
+* git config --global http.sslBackend schannel  #needed for the firewall
+* Set a token in github>developer settings>classic tokens. Check repo box. 
+  * git remote set-url GitLearning https://[New token]@github.com/GabeWater/GitLearning.git   
+* git add .
+* git commit -m "Save local work before merging"
+* git pull GitLearning main --allow-unrelated-histories
